@@ -1,5 +1,13 @@
 # zidio_dev_blueprint_task_app
 
+![screenshot](screenshots/Task1.png)
+
+![screenshot](screenshots/Task2.png)
+
+![screenshot](screenshots/Task3.png)
+
+![screenshot](screenshots/Task4.png)
+
 # Cloud-Based Kanban Board
 
 This web application is designed to streamline task management for individuals and teams using the Kanban methodology. Built with the MERN stack (MongoDB, Express.js, React, and Node.js), this platform offers a visual interface for organizing tasks into stages (to-do, in-progress, done) and facilitates efficient task management.
