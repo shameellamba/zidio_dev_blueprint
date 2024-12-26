@@ -42,14 +42,42 @@ Traditional task management methods often lack the visual clarity to effectively
 
 1. **Server Setup**
     * Create a `.env` file in the server directory to store environment variables like MongoDB connection URI, JWT secret, and port number.
+         - MONGODB_URI = `your MongoDB URL`
+         - JWT_SECRET = `any secret key - must be secured`
+         - PORT = `8800` or any port number
+         - NODE_ENV = `development`
     * Set up a MongoDB database and configure the connection URL in the `.env` file.
+       - Create an Account
+          - Log in to your MongoDB Atlas account.
+          - Create a New Cluster
+          - Choose a Cloud Provider and Region
+          - Configure Cluster Settings
+          - Create Cluster
+          - Wait for Cluster to Deploy
+          - Create Database User
+          - Set Up IP Whitelist
+          - Connect to Cluster
+          - Configure Your Application
+          - Test the Connection
     * Install dependencies using `npm install`.
     * Start the server using `npm start`.
+  
+1. Open the project in any editor of choice.
+2. Navigate into the server directory `cd server`.
+3. Run `npm i` or `npm install` to install the packages.
+4. Run `npm start` to start the server.
 
 2. **Client Setup**
     * Create a `.env` file in the client directory to store the base URL of the server and any other necessary environment variables.
+         - VITE_APP_BASE_URL = `http://localhost:8800` #Note: Change the port 8800 to your port number.
+         - VITE_APP_FIREBASE_API_KEY = `Firebase api key`
     * Install dependencies using `npm install`.
     * Start the client application using `npm start`.
+  
+1. Navigate into the client directory `cd client`.
+2. Run `npm i` or `npm install` to install the packages.
+3. Run `npm start` to run the app on `http://localhost:3000`.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 **Deployment**
 
